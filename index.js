@@ -34,3 +34,10 @@ function add3to2(){
     count2+=3
     score2El.textContent=count2
 }
+
+function newGame(){
+    score1El.textContent=0
+    score2El.textContent=0
+    count1=0
+    count2=0
+}
